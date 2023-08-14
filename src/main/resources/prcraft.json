@@ -1,0 +1,18 @@
+{
+  "id": "examplemod",
+  "version": "${version}",
+  "name": "Example Mod",
+  "description": "This is an example mod.",
+  "contributors": {
+    "Myself": "Developer"
+  },
+  "environment": "*",
+  "icon": "icon.png",
+  "mainClass": "com.example.ExampleMod",
+  "dependencies": {
+    "prcraft": ">=0.4.637"
+  },
+  "transformers": [
+    "com.example.transformers.MixinGuiMainMenu"
+  ]
+}
