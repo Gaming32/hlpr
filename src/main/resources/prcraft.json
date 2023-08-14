@@ -1,18 +1,18 @@
 {
-  "id": "examplemod",
+  "id": "hlpr",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example mod.",
+  "name": "HLPR",
+  "description": "A Half-Life mod for the prcraft mod loader",
   "contributors": {
-    "Myself": "Developer"
+    "Gaming32": "Developer"
   },
   "environment": "*",
   "icon": "icon.png",
-  "mainClass": "com.example.ExampleMod",
+  "mainClass": "io.github.gaming32.hlpr.HLPR",
   "dependencies": {
-    "prcraft": ">=0.4.637"
+    "prcraft": ">=0.4.640"
   },
   "transformers": [
-    "com.example.transformers.MixinGuiMainMenu"
+    "io.github.gaming32.hlpr.transformers.**"
   ]
 }
