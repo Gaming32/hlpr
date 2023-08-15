@@ -7,7 +7,7 @@
     "Gaming32": "Developer"
   },
   "environment": "*",
-  "icon": "icon.png",
+  "icon": "assets/hlpr/icon.png",
   "mainClass": "io.github.gaming32.hlpr.HLPR",
   "eventHandlers": {
     "net.minecraft.modding.api.event.client.ClientInitializingEvent": [
@@ -15,7 +15,7 @@
     ]
   },
   "dependencies": {
-    "prcraft": ">=0.4.645"
+    "prcraft": ">=0.4.651"
   },
   "transformers": [
     "io.github.gaming32.hlpr.transformers.**"

@@ -1,11 +1,8 @@
 package io.github.gaming32.hlpr;
 
 import net.lenni0451.classtransform.TransformerManager;
-import net.lenni0451.lambdaevents.EventHandler;
 import net.minecraft.modding.api.Mod;
 import net.minecraft.modding.api.ModInfo;
-import net.minecraft.modding.api.Side;
-import net.minecraft.modding.api.event.client.PostClientInitialize;
 import net.minecraft.modding.api.game.ContentUtil;
 import net.minecraft.modding.api.game.Registries;
 import net.minecraft.src.EnumToolMaterial;
@@ -24,10 +21,5 @@ public class HLPR implements Mod {
     @Override
     public void init(@NotNull ModInfo modInfo, @NotNull TransformerManager transformerManager) throws Exception {
         System.out.println("Exile, it takes your mind away");
-    }
-
-    @Side.Client
-    @EventHandler
-    private void onClientInitialize(PostClientInitialize event) {
     }
 }
