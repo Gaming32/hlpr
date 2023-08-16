@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public class HLPR implements Mod {
     public static final Supplier<Item> CROWBAR = Registries.ITEM.registerLater(
         "hlpr:crowbar",
-        () -> new SwordItem(ContentUtil.itemId(), EnumToolMaterial.IRON).setItemName("hlpr.crowbar")
+        () -> new SwordItem(ContentUtil.itemId(), EnumToolMaterial.IRON)
     );
 
     @Override
