@@ -1,5 +1,6 @@
 package io.github.gaming32.hlpr.client;
 
+import io.github.gaming32.hlpr.HLPR;
 import net.minecraft.client.gui.screens.inventory.CreativeTab;
 import net.minecraft.modding.api.ClassEventHandler;
 import net.minecraft.modding.api.ModInfo;
@@ -13,5 +14,6 @@ public class HLPRClient implements ClassEventHandler<ClientInitializingEvent> {
 
     @Override
     public void handle(ModInfo mod, ClientInitializingEvent event) {
+        TAB.setIconItem(HLPR.CROWBAR.get());
     }
 }
